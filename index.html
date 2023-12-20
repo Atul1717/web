@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <title>
+        ATUL CHAUHAN
+    </title>
+<head></head> 
+</head> 
+
+<body background="c:\Users\cbhan\Downloads\sun.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <i class="fa-solid fa-4x fa-w"style= font size:10px  color:red></i>
+    <i class="fa-solid fa-3x fa-e"></i>
+    <i class="fa-solid fa-3x fa-l"></i>
+    <i class="fa-solid fa-3x fa-c"></i>
+    <i class="fa-solid fa-3x fa-o"></i>
+    <i class="fa-solid fa-3x fa-m"></i>
+    <i class="fa-solid fa-3x fa-e"></i>
+<marquee>
+<h2> This website was created by Mr. Atul Chauhan.|First, sign up/log in and submit, then click on the next page </h2>
+</marquee>
+
+    <form method="POST" name='google-sheet'>
+<div>
+<h3>
+      <label for="name"><b>name</b></label>
+      <input type="text" placeholder="Enter name" name="name" required>
+</h3>
+<h4>
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+</h4>
+<h5>
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="password" required>
+</h5>
+<h6>
+    <button type="submit">Sign in/Log in</button>
+         
+</h6>
+ 
+
+    </div>
+<a>
+        <script>
+
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbxOrp8TLnP0nWQa_BMpEWErGb25dqIhKOQ3MmP2scjJtKL1wxIbx1E2fvSbRG_HKUeZ/exec'
+            const form = document.forms["google-sheet"]
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+          </a>
+          <h7> click on next page </h7>
+
+<p1>
+<a>
+            <a href="https://www.instagram.com/golden_siblings_atul_chauhan?igshid=OGQ5ZDc2ODk2ZA==";
+            style="font-size:29px;
+            background-color: rgb(229, 27, 236);
+            width:100;height:50;
+            border-color: gold;;;"> NEXT PAGE </a>
+</a>
+</p1>
+
+</body>
+</html>
